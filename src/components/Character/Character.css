@@ -1,0 +1,50 @@
+.characterDiv{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    background-color: black;
+    
+}
+.characterDiv>div{
+    border: 10px groove #e6ff50;
+    width: 215px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.characterDiv>div>div{
+    width: 100%;
+    
+}
+.h1Character{
+font-size: 15px;
+color: wheat;
+}
+.pCharacter{
+    padding: 10px;
+    font-size: 15px;
+    color: blue;
+}
+.imgCharacter{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.imgCharacter:hover{
+    scale: 0.7;
+}
+.rotation{
+    transform: rotate(180deg);
+}
+
